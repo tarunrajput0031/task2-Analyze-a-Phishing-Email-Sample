@@ -1,0 +1,75 @@
+Return-Path: <accountupdate@google.org>
+Received: from ubuntu-s-4vcpu-8gb-fra1-01 ([164.90.214.153]) by mx.example.com with ESMTPS id x7f3b9;
+    Fri, 05 May 2023 09:12:34 +0000 (UTC)
+Received: from mail.badactor.ru (mail.badactor.ru [91.222.123.45])
+    by ubuntu-s-4vcpu-8gb-fra1-01 (Postfix) with ESMTPSA id 4F6C22C3
+    for <victim@example.com>; Fri, 05 May 2023 09:12:30 +0000 (UTC)
+Authentication-Results: mx.example.com;
+    spf=fail (sender IP is 164.90.214.153) smtp.mailfrom=google.org;
+    dkim=none (message has no DKIM signature);
+    dmarc=fail action=none header.from=google.org
+Received-SPF: Fail (mail from 164.90.214.153 does not match google.org records)
+From: "Google Docs" <accountupdate@google.org>
+To: Victim User <victim@example.com>
+Reply-To: support@verify-now.org
+Subject: Action required — Confirm your Google Docs account now
+Date: Fri, 05 May 2023 09:10:01 +0000
+Message-ID: <20230505091001.4a7b2c@ubuntu-s-4vcpu-8gb-fra1-01>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="===============933201234=="
+
+--===============933201234==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Dear user,
+
+We have detected an update to our login credential policy which requires immediate confirmation of your account. Please confirm your account by clicking the link below within 48 hours or your access will be restricted.
+
+Confirm here: https://docs.google.com
+
+If you do not confirm your account within 48 hours, your Google Docs access will be suspended.
+
+Regards,
+Google Account Support
+
+--===============933201234==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body style="font-family: Arial, sans-serif; color: #111;">
+    <table width="600" cellpadding="10" cellspacing="0" border="0">
+      <tr>
+        <td style="border-bottom: 1px solid #e0e0e0;">
+          <img src="https://cdn.somecdn.net/google-logo.png" alt="Google" width="120" style="display:block;">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h2 style="color:#202124;">Important: Verify your Google Docs account</h2>
+          <p>Hello <b>Valued User</b>,</p>
+          <p>Our security team recently updated login credential policies. To prevent interruption of service, <b>please confirm your account now</b> by clicking the button below.</p>
+          <p style="text-align:center; margin:20px 0;">
+            <!-- Visible text looks like docs.google.com but actual href goes to a different host -->
+            <a href="http://gdoc-verify-login.some-scam-domain.us/verify?uid=ABCD1234" style="text-decoration:none; padding:12px 18px; border-radius:6px; border:1px solid #1a73e8; display:inline-block;">
+              Go to Google Docs
+            </a>
+          </p>
+          <p><b>Important:</b> Failure to confirm within <b>48 hours</b> will result in loss of access.</p>
+          <hr>
+          <p style="font-size:12px; color:#666;">
+            If you did not request this verification, contact Google Support immediately.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td style="font-size:11px; color:#999;">
+          Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+
+--===============933201234==--

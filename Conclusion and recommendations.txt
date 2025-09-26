@@ -1,0 +1,13 @@
+Conclusion:
+
+>>>> This email is a credential-harvesting phishing attempt impersonating Google Docs.
+It is designed to trick recipients into clicking a fake “Verify” button and entering their Google credentials on an attacker-controlled website.
+
+
+Recommended Actions:
+
+>>>> Do not click the link or reply.
+
+>>>> Report the email as phishing to your mail provider.
+
+>>>> Notify affected users and security teams if received within your organization.
